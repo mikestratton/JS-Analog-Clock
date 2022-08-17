@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(39,39,39);
+    color: navajowhite;
+}
+
+.clock{
+    position:absolute;
+    height: 400px;
+    width: 400px;
+    border-radius: 200px;
+    border: solid 4px dodgerblue;
+    transform-origin: 0% 100%;
+}
+
+#hand-seconds{
+    position: absolute;
+    height: 185px;
+    width: 2px;
+    background-color: lightskyblue;
+    left: 199px;
+    bottom:200px;
+    opacity: 50%;
+    transform-origin: 0 100%;
+}
+
+#hand-minutes{
+    position: absolute;
+    height: 128px;
+    width: 4px;
+    background-color: deepskyblue;
+    left: 198px;
+    bottom: 200px;
+    transform-origin: 0 100%;
+}
+
+#hand-hours{
+    position:absolute;
+    height: 64px;
+    width: 4px;
+    background-color: royalblue;
+    left: 197px;
+    bottom: 200px;
+    transform-origin: 0 100%;
+}
+
+#center{
+    position:absolute;
+    z-index: 100;
+    width:40px;
+    height:40px;
+    border-radius: 20px;
+    background-color: rgb(39,39,39);
+    left: 180px;
+    bottom: 180px;
+    border: 1px solid dodgerblue;
+}
