@@ -13,11 +13,7 @@ function getTime(){
     handSeconds.style.transform = 'rotate(' + (seconds * timeInterval) + 'deg)';
     handMinutes.style.transform = 'rotate(' + (minutes * timeInterval) + 'deg)';
     handHours.style.transform = 'rotate(' + (hours * 30 + minutes / 2) + 'deg)';
-
-    console.log(now);
-    console.log(hours);
-
 }
 
-// setInterval(getTime, 100)
-getTime();
+setInterval(getTime, 100)
+
